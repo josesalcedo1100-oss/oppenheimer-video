@@ -53,7 +53,7 @@ export const MapaSVG: React.FC<{
 }> = ({kind, width, height, fills = {}, base = '#1b1d24', stroke = 'rgba(245,241,232,0.22)', strokeOpacity = 1, opacity = 1, children, style, sphere}) => {
   const {paths, project} = useMemo(() => build(kind, width, height), [kind, width, height]);
   return (
-    <svg width={width} height={height} style={{opacity, overflow: 'visible', ...style}}>
+    <svg width={width} height={height} style={{opacity, overflow: 'hidden', ...style}}>
       {sphere && <rect x={0} y={0} width={width} height={height} fill="none" />}
       <g strokeLinejoin="round">
         {paths.map((p, k) => (

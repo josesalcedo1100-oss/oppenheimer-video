@@ -7,8 +7,8 @@ import {clamp01, ease, prog, vis} from './common';
 export const Documento: React.FC<{
   x: number; y: number; w?: number; h?: number; rot?: number; from: number; to?: number;
   header?: string; lines?: string[]; bars?: number; sello?: string; selloAt?: number; selloColor?: string;
-  typeSpeed?: number; footer?: string; dim?: number; enterFrom?: 'bottom' | 'left' | 'right';
-}> = ({x, y, w = 520, h = 680, rot = 0, from, to, header, lines = [], bars = 0, sello, selloAt, selloColor = C.red, typeSpeed = 1.4, footer, dim = 1, enterFrom = 'bottom'}) => {
+  typeSpeed?: number; footer?: string; dim?: number; enterFrom?: 'bottom' | 'left' | 'right'; children?: React.ReactNode;
+}> = ({x, y, w = 520, h = 680, rot = 0, from, to, header, lines = [], bars = 0, sello, selloAt, selloColor = C.red, typeSpeed = 1.4, footer, dim = 1, enterFrom = 'bottom', children}) => {
   const frame = useCurrentFrame();
   const o = vis(frame, from, to ?? Infinity, 12);
   const p = prog(frame, from, 26);
@@ -39,6 +39,7 @@ export const Documento: React.FC<{
         <div key={k} style={{height: 10, margin: '16px 0', background: 'rgba(28,26,22,0.55)', width: `${58 + ((k * 37) % 40)}%`, opacity: vis(frame, from + 8 + k * 2, Infinity, 6)}} />
       ))}
       {footer && <div style={{position: 'absolute', left: 48, bottom: 34, fontSize: 17, letterSpacing: 2, opacity: 0.7}}>{footer}</div>}
+      {children}
       {sello && selloAt !== undefined && (
         <div
           style={{

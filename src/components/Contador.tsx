@@ -10,7 +10,7 @@ export const Contador: React.FC<{
 }> = ({from, value = 0, start = 0, dur = 40, x = '50%', y = '50%', prefix = '', suffix = '', label, size = 150, color = C.amber, fmt, labelSize = 38, end}) => {
   const frame = useCurrentFrame();
   const v = start + (value - start) * prog(frame, from + 4, dur);
-  const txt = fmt ? fmt(v) : Math.round(v).toLocaleString('es-ES');
+  const txt = fmt ? fmt(v) : String(Math.round(v)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
   const o = vis(frame, from, end ?? Infinity, 12);
   return (
     <div style={{position: 'absolute', left: x, top: y, transform: 'translate(-50%,-50%)', textAlign: 'center', opacity: o}}>

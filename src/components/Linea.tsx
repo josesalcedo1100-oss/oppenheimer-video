@@ -36,7 +36,7 @@ export const RotuloDeFecha: React.FC<{date: string; sub?: string; from: number; 
   const p = prog(frame, from, 26);
   const tx = align === 'center' ? '-50%' : '0';
   return (
-    <div style={{position: 'absolute', left: x, top: y, transform: `translate(${tx}, ${(1 - p) * 18}px)`, opacity: o, textAlign: align}}>
+    <div style={{position: 'absolute', left: x, top: y, transform: `translate(${tx}, ${(1 - p) * 18}px)`, opacity: o, textAlign: align, whiteSpace: 'nowrap'}}>
       <div style={{fontFamily: F.serif, fontWeight: 700, fontSize: size, color, letterSpacing: 4, textShadow: '0 2px 24px rgba(0,0,0,0.7)'}}>{date}</div>
       <div style={{height: 3, background: color, width: `${100 * p}%`, margin: align === 'center' ? '10px auto 0' : '10px 0 0'}} />
       {sub && <div style={{fontFamily: F.sans, fontWeight: 600, fontSize: size * 0.42, color: C.bone, letterSpacing: 5, marginTop: 12}}>{sub}</div>}
