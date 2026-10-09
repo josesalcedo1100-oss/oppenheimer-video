@@ -50,6 +50,8 @@ export const Scene10: React.FC = () => {
         <Sfx key={'p' + k} src="ui_pop" at={cIron + 20 + k * 12} vol={0.18} />
       ))}
 
+      <Title text="EL DATO QUE TE PROMETÍ" size={92} color={C.amber} x={960} y={470} from={cDato} to={cDic - 8} spacing={6} />
+      <Sfx src="low_hit" at={cDato} vol={0.45} />
       {/* diciembre de 2022 (recreación propia) */}
       <AbsoluteFill style={{opacity: vis(frame, cDic - 6, cFinal - 8, 16)}}>
         <div style={{position: 'absolute', left: 960, top: 470, transform: `translate(-50%,-50%) scale(${1 + 0.03 * prog(frame, cDic, 200)})`, width: 1240, padding: '46px 60px', background: 'linear-gradient(160deg,#e2d8bd,#cfc3a1)', color: C.ink, boxShadow: '0 30px 80px rgba(0,0,0,0.7)', textAlign: 'center'}}>

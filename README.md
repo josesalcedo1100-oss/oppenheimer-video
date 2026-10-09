@@ -36,3 +36,8 @@ Contact sheet de varios fotogramas: `node scripts/stills.mjs out/hoja.png 330 60
 ## Notas
 - El hueco `[TU PRÓXIMO VÍDEO]` está como rótulo discreto en la pantalla final (20 s con espacio libre a ambos lados para las tarjetas de YouTube).
 - Las cifras en pantalla coinciden con la locución; los documentos son recreaciones propias.
+
+## Entrega
+- `entrega/oppenheimer_comprimido.mp4` (~84 MB, 1080p, H.264 a ~1 Mbps): versión incluida en el repositorio (GitHub rechaza archivos de más de 100 MB).
+- El render sin comprimir (`out/oppenheimer_final.mp4`, CRF 18, ~490 MB) no se versiona; se regenera con `node scripts/render.mjs --tag=final --crf=18`.
+- Tiempos por palabra: se usó la alternativa sin Whisper (detección de silencios + reparto proporcional); ver `REPORTE_AUDIOS.md`.
