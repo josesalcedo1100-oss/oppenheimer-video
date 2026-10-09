@@ -80,7 +80,7 @@ export const Title: React.FC<{
         transform: `translate(${tx}, calc(-50% + ${(1 - p) * rise}px))`,
         opacity: o, color, fontFamily: F[font], fontSize: size, fontWeight: weight,
         fontStyle: italic ? 'italic' : 'normal', letterSpacing: spacing, textAlign: align,
-        lineHeight: 1.12, textShadow: '0 2px 24px rgba(0,0,0,0.6)', whiteSpace: 'pre-line',
+        lineHeight: 1.12, textShadow: '0 2px 24px rgba(0,0,0,0.6)', whiteSpace: width ? 'pre-line' : 'pre',
       }}>
       {text}
     </div>
