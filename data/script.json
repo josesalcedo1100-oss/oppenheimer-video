@@ -1,0 +1,109 @@
+[
+ {
+  "scene": 1,
+  "title": "GANCHO",
+  "paragraphs": [
+   "16 de julio de 1945, desierto de Nuevo México. Falta poco para amanecer cuando el cielo se ilumina más que mil soles. Un físico delgado, fumador empedernido, mira la bola de fuego y recuerda un verso sagrado: «Me he convertido en la Muerte, destructora de mundos».",
+   "Ese hombre había dirigido el proyecto científico más caro y secreto de la historia. Y meses después le diría al presidente de Estados Unidos que sentía tener las manos manchadas de sangre.",
+   "Hoy te cuento cómo se construyó la bomba atómica y por qué sigue siendo tan difícil decidir si Oppenheimer fue un villano, una víctima o algo más incómodo. Y al final te daré un dato sobre su caso que el propio gobierno de Estados Unidos tardó casi setenta años en reconocer."
+  ],
+  "words": 129
+ },
+ {
+  "scene": 2,
+  "title": "EL MIEDO",
+  "paragraphs": [
+   "Todo empieza con un miedo. En 1938 se descubre la fisión nuclear: al partir un núcleo de uranio se libera una cantidad enorme de energía. Y los físicos que habían huido del nazismo cayeron en la cuenta de algo terrible: la mejor física del mundo estaba en Alemania.",
+   "En 1939, el refugiado húngaro Leó Szilárd convenció a Albert Einstein de que firmara una carta al presidente Roosevelt, avisándole de que una bomba así era posible. Washington reaccionó con calma, casi con desgana: les parecía pura teoría.",
+   "Un año después, dos refugiados en Reino Unido, Otto Frisch y Rudolf Peierls, calcularon que bastaban unos pocos kilos de uranio-235 para fabricar una bomba que cabría en un avión. Entonces la pregunta cambió. Ya no era si se podía. Era quién llegaría primero. Y con alguien como Werner Heisenberg trabajando para Alemania, nadie quería comprobar la respuesta por las malas."
+  ],
+  "words": 147
+ },
+ {
+  "scene": 3,
+  "title": "LOS DOS HOMBRES",
+  "paragraphs": [
+   "En 1942, con Estados Unidos ya en la guerra, arranca oficialmente el Proyecto Manhattan. Al mando militar, el coronel Leslie Groves: autoritario, enorme, el hombre que acababa de construir el Pentágono. Para dirigir la ciencia eligió a un físico de Berkeley llamado Robert Oppenheimer.",
+   "Eran de planetas distintos. Groves, un ingeniero práctico y brusco. Oppenheimer, delgadísimo, culto, brillante, desorganizado y sin experiencia dirigiendo equipos. Sobre el papel, una mala apuesta. Pero Groves vio algo: carisma, y una capacidad enorme para convencer a gente muy difícil de convencer.",
+   "Oppenheimer reclutó a las mejores mentes de la época, muchas de ellas europeas que habían escapado de los totalitarismos, y levantó un laboratorio secreto en el desierto de Los Álamos. El proyecto acabó costando más de 2.000 millones de dólares de entonces, decenas de miles de millones de hoy. Y empleó a más de cien mil personas, la mayoría sin saber qué estaba construyendo."
+  ],
+  "words": 151
+ },
+ {
+  "scene": 4,
+  "title": "CÓMO FUNCIONA UNA BOMBA ATÓMICA",
+  "paragraphs": [
+   "¿Y qué había que conseguir exactamente? Imagina una sala llena de ratoneras armadas, cada una con una pelotita de ping pong encima. Lanzas una pelota: salta una trampa, esa lanza sus pelotas, saltan otras dos… y en un instante toda la sala es un caos.",
+   "Eso es una reacción en cadena. Cada núcleo pesado que se parte libera neutrones, y esos neutrones parten otros núcleos. Pero hay una condición: si hay pocas ratoneras, o están muy separadas, las pelotas se pierden por el camino y la cadena se apaga. Hace falta una cantidad mínima de material, bien compacta. Es lo que llamamos masa crítica."
+  ],
+  "words": 104
+ },
+ {
+  "scene": 5,
+  "title": "EL PROBLEMA DEL COMBUSTIBLE",
+  "paragraphs": [
+   "El primer reto: conseguir ese combustible. Casi todo el uranio natural es uranio-238, que no sirve para esto. Menos del uno por ciento es uranio-235, el que sí se fisiona. Y separar uno del otro, siendo casi idénticos, era lentísimo y carísimo.",
+   "La alternativa era el plutonio, un elemento recién descubierto que se fabricaba dentro de reactores nucleares y que también servía. Pero había un problema: nadie había construido todavía un reactor así.",
+   "Con dos caminos, y varias técnicas dentro de cada uno, y sin saber cuál funcionaría, tomaron la decisión más cara posible: probarlos todos. Plantas gigantes de enriquecimiento, reactores, ciudades secretas por todo el país. Y en diciembre de 1942, en Chicago, Enrico Fermi puso en marcha el primer reactor nuclear de la historia. El plutonio dejó de ser una idea."
+  ],
+  "words": 133
+ },
+ {
+  "scene": 6,
+  "title": "EL PROBLEMA DE LA DETONACIÓN",
+  "paragraphs": [
+   "Con el plutonio apareció otro problema, y casi lo hunde todo. Para la bomba de uranio bastaba un método sencillo: disparar un trozo de uranio contra otro con un explosivo convencional, como una bala dentro de un cañón.",
+   "Pero el plutonio fabricado en los reactores traía impurezas que provocaban que la reacción arrancara demasiado pronto. La bomba se deshacía antes de aprovechar casi nada de su combustible.",
+   "La solución fue mucho más elegante, y mucho más difícil: rodear una esfera de plutonio con explosivos que, al detonar exactamente a la vez, la comprimieran desde todos los lados hasta volverla crítica. Es la implosión. Matemáticos como John von Neumann ayudaron a hacerla viable. Y era tan complicada que Oppenheimer propuso probarla con una bomba de verdad, en medio del desierto."
+  ],
+  "words": 129
+ },
+ {
+  "scene": 7,
+  "title": "TRINITY, Y EL GIRO",
+  "paragraphs": [
+   "Esa prueba se llamó Trinity. 16 de julio de 1945: la bola de fuego se vio a cientos de kilómetros, la nube subió más de doce kilómetros, y el éxito fue rotundo.",
+   "Pero mientras ellos terminaban, el mundo había cambiado. Roosevelt había muerto en abril. Alemania se había rendido en mayo. Los aliados capturaron a Heisenberg y a otros físicos alemanes, y comprobaron algo que lo cambiaba todo: los nazis nunca estuvieron cerca de tener la bomba.",
+   "El motivo por el que nació el proyecto había desaparecido. Y, sin embargo, la bomba ya existía. Y había otro enemigo."
+  ],
+  "words": 98
+ },
+ {
+  "scene": 8,
+  "title": "HIROSHIMA Y NAGASAKI",
+  "paragraphs": [
+   "Varios científicos intentaron frenar el ataque. Szilárd redactó una petición. En junio, un grupo firmó el informe Franck, pidiendo hacer una demostración sin víctimas. Oppenheimer no se opuso: creyó que el uso militar podía acabar con la guerra y evitar guerras futuras. La decisión estaba tomada.",
+   "El 6 de agosto, la bomba de uranio, Little Boy, cayó sobre Hiroshima. Tres días después, la de plutonio, Fat Man, sobre Nagasaki. Se estima que murieron más de doscientas mil personas antes de que acabara el año, casi todas civiles."
+  ],
+  "words": 87
+ },
+ {
+  "scene": 9,
+  "title": "¿VILLANO? LO QUE PASÓ DESPUÉS",
+  "paragraphs": [
+   "¿Fue Oppenheimer un villano? La respuesta honesta es más incómoda. Conocía el plan, no se opuso, y entre mayo y agosto trabajó como nunca, sin implicarse en las protestas de sus colegas. Eso es cierto.",
+   "Pero con Hiroshima algo cambió. Entendió que otros países acabarían teniendo la bomba, que la carrera acababa de empezar y que hacía falta un acuerdo internacional. Dimitió de Los Álamos, le dijo a Truman que sentía tener las manos manchadas de sangre, y usó su fama para defender un control internacional de la energía atómica.",
+   "El gobierno no quiso escuchar. En 1949 la Unión Soviética hizo estallar su primera bomba, y poco después se descubrió que Klaus Fuchs, un físico infiltrado en Los Álamos, les había pasado información. Oppenheimer, que se había opuesto a desarrollar la bomba de hidrógeno, quedó en el punto de mira. El FBI llevaba años vigilándolo por su pasado de izquierdas: le pinchó los teléfonos, lo acosó, y en 1954 le retiró su acreditación de seguridad. El hombre que había dirigido la victoria acabó tratado como un traidor."
+  ],
+  "words": 177
+ },
+ {
+  "scene": 10,
+  "title": "CIERRE",
+  "paragraphs": [
+   "Hay una ironía final. Oppenheimer quería que las armas nucleares hicieran imposible otra guerra mundial. Más de ochenta años después, no se han vuelto a usar en combate. Quizá el equilibrio del miedo ayudó. Quizá fue suerte. Nadie lo sabe con certeza, y mientras sigan existiendo, la pregunta sigue abierta.",
+   "Y ahora, el dato que te prometí. En diciembre de 2022, casi setenta años después, el Departamento de Energía de Estados Unidos anuló oficialmente la decisión de 1954, reconociendo que el proceso contra Oppenheimer había sido injusto.",
+   "Al final de su vida, él aseguró que no se arrepentía. Pero eso no significa que no cargara con el peso de aquello. Esta es una historia en la que casi todos tuvieron buenas razones… y ninguno salió ileso."
+  ],
+  "words": 126
+ },
+ {
+  "scene": 11,
+  "title": "LLAMADA A LA ACCIÓN",
+  "paragraphs": [
+   "Ahora te toca a ti: ¿villano, víctima o algo más complicado? Cuéntamelo en los comentarios.",
+   "Si quieres seguir con esta historia, aquí tienes [TU PRÓXIMO VÍDEO]. Y si te gusta la ciencia con historia detrás, suscríbete. Gracias por verlo."
+  ],
+  "words": 39
+ }
+]
